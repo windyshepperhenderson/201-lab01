@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 1 Lab</title>
+    <style>
+      body {
+        background-color: bisque;
+      }
+      header {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+        padding: 16px;
+        border-color: white;
+        border: 64px solid red;
+      }
+      h1 {
+        background-color: black;
+        color: violet;
+        font-size: 32px;
+        font-family: fantasy;
+        padding: 32px;
+        text-align: center;
+        margin-left: 450px;
+        margin-right: 450px;
+      }
+      .tent {
+        color: lime;
+        background-color: black;
+        padding: 16px;
+        margin-right: 1000px;
+        text-align: center;
+      }
+      .wellies {
+        color: yellow;
+        background-color: black;
+        padding: 16px;
+        margin-left: 1000px;
+        text-align: center;
+      }
+      .light {
+        color: rgb(255, 0, 128);
+        background-color: black;
+        padding: 16px;
+        margin-right: 1000px;
+        text-align: center;
+      }
+      .alco {
+        color: blue;
+        background-color: black;
+        padding: 16px;
+        margin-left: 1000px;
+        text-align: center;
+      }
+      .tentpic {
+        max-width: 500px;
+        max-height: 500px;
+      }
+      .welliespic {
+        margin-left: 1000px;
+        width: 25%;
+      }
+
+      .alcopic {
+        max-width: 400px;
+        max-height: 400px;
+        margin-left: 1000px;
+      }
+      .lightpic {
+        width: 25%;
+      }
+      footer {
+        text-align: center;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <header>TECH EDUCATORS</header>
+
+  <body>
+    <main>
+      <script>
+        let tent = prompt(
+          "Would you like a 2 man tent? Or a 4 man tent? (reply 2 or 4)"
+        );
+        console.log("The user would like a " + tent + " man tent");
+      </script>
+
+      <script>
+        let wellies = prompt(
+          "Would you like brown or green wellies? (reply brown or green)"
+        );
+        console.log("The user would like + wellies + wellies");
+      </script>
+
+      <script>
+        let light = prompt(
+          "Would you like a headlamp or a torch? (reply headlamp or torch)"
+        );
+        console.log("The user would like a  + light");
+      </script>
+
+      <script>
+        let alco = prompt("Do you like beer or wine? (reply beer or wine)");
+        console.log("The user would like " + tent);
+      </script>
+
+      <script>
+        alert(
+          "So you require a " +
+            tent +
+            " man tent, " +
+            wellies +
+            " wellies, " +
+            "a " +
+            light +
+            " and " +
+            alco +
+            "." +
+            "  Are you off to a festival per chance?"
+        );
+      </script>
+
+      <h1>Class 1 Lab</h1>
+
+      <p class="tent">Would you like a 2 man tent? Or a 4 man tent?</p>
+      <img class="tentpic" src="/tent.jpg" alt="tent" />
+      <p class="wellies">Would you like brown or green wellies?</p>
+      <img class="welliespic" src="/wellies.jpg" alt="wellies" />
+      <p class="light">Would you like a headlamp or a torch?</p>
+      <img class="lightpic" src="/torch.jpg" alt="torch" />
+      <p class="alco">Do you like beer or wine?</p>
+      <img class="alcopic" src="/alcohol.webp" alt="alcohol" />
+    </main>
+  </body>
+
+  <footer>RMC</footer>
+</html>
